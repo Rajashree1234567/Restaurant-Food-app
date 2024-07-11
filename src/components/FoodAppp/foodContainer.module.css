@@ -1,0 +1,79 @@
+.parentContainer {
+    display: flex;
+}
+.innerContainer {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FoodRecipe */
+
+.recipeCard {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.2);
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #393e46;
+}
+.recipeName {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.recipeImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.recipeDetails {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recipeInstruction {
+    padding: 0px;
+    border-radius: 5px;
+    color: #adaab0;
+}
+.recipeInstruction ol {
+    margin-left: 0px;
+}
+.recipeInstruction li {
+    margin: 10px 0px;
+}
+
+/* FoodExtendedIngredients */
+
+.extendContainer {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 5px rgb(0,0,0,0.1);
+    border-radius: 10px;
+}
+.extendImage{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.ExtendImageSize {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+.ExtenNameContainer {
+    margin-left: 50px;
+}
+.extendName {
+    font-size: larger;
+    font-weight: bold;
+}
+.extendAmount {
+    margin-top: 10px;
+    font-weight: bold;
+}

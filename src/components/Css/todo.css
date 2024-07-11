@@ -1,0 +1,18 @@
+
+
+.footerMain {
+    margin-top: 8%;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.footerText {
+    text-align: center;
+}
